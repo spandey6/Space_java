@@ -216,7 +216,6 @@ private static void drawMap(int x, int y, int x0, int y0, int x1, int y1, int x2
 //***********************************************************************************
 // char drawHUD()  
 // This is a simple function to draw out the text description of where you are
-// 
 //**********************************************************************************
 private static char drawHUD(int mx, int my, Ship s) {
 
@@ -289,8 +288,6 @@ private static String getDateTime() {
 //***********************************************************************************
 // int parseStringX()
 // This is a simple function to parse and return the coodinates you want to goto
-//
-//
 //**********************************************************************************
     private static void parseMovement(String stringX, String stringY, Ship s) {
 
@@ -341,4 +338,4 @@ private static String getDateTime() {
 
 } // end of method
 
-} // end of class
+} // end of class - Isn't that supposed to wait until 11:40?  :P
